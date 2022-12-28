@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({ toggle }) => {
   return (
-    <nav className="flex justify-between items-center h-16 bg-white text-black relative shadow-md font-mono font-bold">
+    <nav className="flex justify-between items-center h-16 bg-white text-black relative shadow-md font-mono 
+    font-bold">
       <Link to="/" className="pl-8">
         BRIAN
       </Link>
